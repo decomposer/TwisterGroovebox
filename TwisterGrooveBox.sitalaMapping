@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitalaMappingPreset version="0" name="TwisterGrooveBox">
+  <mapping>
+    <triggerMap>
+      <item midiNote="36" slot="0"/>
+      <item midiNote="37" slot="1"/>
+      <item midiNote="38" slot="2"/>
+      <item midiNote="39" slot="3"/>
+      <item midiNote="40" slot="4"/>
+      <item midiNote="41" slot="5"/>
+      <item midiNote="42" slot="6"/>
+      <item midiNote="43" slot="7"/>
+      <item midiNote="44" slot="8"/>
+      <item midiNote="45" slot="9"/>
+      <item midiNote="46" slot="10"/>
+      <item midiNote="47" slot="11"/>
+      <item midiNote="48" slot="12"/>
+      <item midiNote="49" slot="13"/>
+      <item midiNote="50" slot="14"/>
+      <item midiNote="51" slot="15"/>
+    </triggerMap>
+    <parameterMap>
+      <item channel="8" midiCC="1" id="0:shape"/>
+      <item channel="8" midiCC="2" id="0:compression"/>
+      <item channel="8" midiCC="3" id="0:tuning"/>
+      <item channel="8" midiCC="4" id="0:volume"/>
+      <item channel="8" midiCC="5" id="1:shape"/>
+      <item channel="8" midiCC="6" id="1:compression"/>
+      <item channel="8" midiCC="7" id="1:tuning"/>
+      <item channel="8" midiCC="8" id="1:volume"/>
+      <item channel="9" midiCC="1" id="2:shape"/>
+      <item channel="9" midiCC="2" id="2:compression"/>
+      <item channel="9" midiCC="3" id="2:tuning"/>
+      <item channel="9" midiCC="4" id="2:volume"/>
+      <item channel="9" midiCC="5" id="3:shape"/>
+      <item channel="9" midiCC="6" id="3:compression"/>
+      <item channel="9" midiCC="7" id="3:tuning"/>
+      <item channel="9" midiCC="8" id="3:volume"/>
+      <item channel="10" midiCC="1" id="4:shape"/>
+      <item channel="10" midiCC="2" id="4:compression"/>
+      <item channel="10" midiCC="3" id="4:tuning"/>
+      <item channel="10" midiCC="4" id="4:volume"/>
+      <item channel="10" midiCC="5" id="5:shape"/>
+      <item channel="10" midiCC="6" id="5:compression"/>
+      <item channel="10" midiCC="7" id="5:tuning"/>
+      <item channel="10" midiCC="8" id="5:volume"/>
+      <item channel="11" midiCC="1" id="6:shape"/>
+      <item channel="11" midiCC="2" id="6:compression"/>
+      <item channel="11" midiCC="3" id="6:tuning"/>
+      <item channel="11" midiCC="4" id="6:volume"/>
+      <item channel="11" midiCC="5" id="7:shape"/>
+      <item channel="11" midiCC="6" id="7:compression"/>
+      <item channel="11" midiCC="7" id="7:tuning"/>
+      <item channel="11" midiCC="8" id="7:volume"/>
+      <item channel="12" midiCC="1" id="8:shape"/>
+      <item channel="12" midiCC="2" id="8:compression"/>
+      <item channel="12" midiCC="3" id="8:tuning"/>
+      <item channel="12" midiCC="4" id="8:volume"/>
+      <item channel="12" midiCC="5" id="9:shape"/>
+      <item channel="12" midiCC="6" id="9:compression"/>
+      <item channel="12" midiCC="7" id="9:tuning"/>
+      <item channel="12" midiCC="8" id="9:volume"/>
+      <item channel="13" midiCC="1" id="10:shape"/>
+      <item channel="13" midiCC="2" id="10:compression"/>
+      <item channel="13" midiCC="3" id="10:tuning"/>
+      <item channel="13" midiCC="4" id="10:volume"/>
+      <item channel="13" midiCC="5" id="11:shape"/>
+      <item channel="13" midiCC="6" id="11:compression"/>
+      <item channel="13" midiCC="7" id="11:tuning"/>
+      <item channel="13" midiCC="8" id="11:volume"/>
+      <item channel="14" midiCC="1" id="12:shape"/>
+      <item channel="14" midiCC="2" id="12:compression"/>
+      <item channel="14" midiCC="3" id="12:tuning"/>
+      <item channel="14" midiCC="4" id="12:volume"/>
+      <item channel="14" midiCC="5" id="13:shape"/>
+      <item channel="14" midiCC="6" id="13:compression"/>
+      <item channel="14" midiCC="7" id="13:tuning"/>
+      <item channel="14" midiCC="8" id="13:volume"/>
+      <item channel="15" midiCC="1" id="14:shape"/>
+      <item channel="15" midiCC="2" id="14:compression"/>
+      <item channel="15" midiCC="3" id="14:tuning"/>
+      <item channel="15" midiCC="4" id="14:volume"/>
+      <item channel="15" midiCC="5" id="15:shape"/>
+      <item channel="15" midiCC="6" id="15:compression"/>
+      <item channel="15" midiCC="7" id="15:tuning"/>
+      <item channel="15" midiCC="8" id="15:volume"/>
+    </parameterMap>
+    <padSelectMap>
+      <item channel="16" midiCC="0" slot="0"/>
+      <item channel="16" midiCC="1" slot="1"/>
+      <item channel="16" midiCC="2" slot="2"/>
+      <item channel="16" midiCC="3" slot="3"/>
+      <item channel="16" midiCC="4" slot="4"/>
+      <item channel="16" midiCC="5" slot="5"/>
+      <item channel="16" midiCC="6" slot="6"/>
+      <item channel="16" midiCC="7" slot="7"/>
+      <item channel="16" midiCC="8" slot="8"/>
+      <item channel="16" midiCC="9" slot="9"/>
+      <item channel="16" midiCC="10" slot="10"/>
+      <item channel="16" midiCC="11" slot="11"/>
+      <item channel="16" midiCC="12" slot="12"/>
+      <item channel="16" midiCC="13" slot="13"/>
+      <item channel="16" midiCC="14" slot="14"/>
+      <item channel="16" midiCC="15" slot="15"/>
+    </padSelectMap>
+  </mapping>
+</sitalaMappingPreset>
