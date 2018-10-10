@@ -1704,7 +1704,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 749.0, 1463.0, 640.0, 480.0 ],
+						"rect" : [ 899.0, 1537.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2372,7 +2372,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 812.0, 1530.0, 640.0, 480.0 ],
+						"rect" : [ 323.0, 1286.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2400,6 +2400,17 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 297.0, 95.0, 32.0, 22.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-32",
 									"maxclass" : "newobj",
@@ -2442,7 +2453,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 0,
 									"patching_rect" : [ 78.5, 275.0, 218.0, 22.0 ],
-									"text" : "ctlout 0 2 @name \"Midi Fighter Twister\""
+									"text" : "ctlout 0 3 @name \"Midi Fighter Twister\""
 								}
 
 							}
@@ -2500,7 +2511,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 0,
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
+									"order" : 1,
 									"source" : [ "obj-44", 0 ]
 								}
 
