@@ -3047,6 +3047,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -3161,7 +3162,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 0,
 									"patching_rect" : [ 57.0, 293.0, 218.0, 22.0 ],
-									"text" : "ctlout @name 0 3 \"Midi Fighter Twister\""
+									"text" : "ctlout 0 3 @name \"Midi Fighter Twister\""
 								}
 
 							}
