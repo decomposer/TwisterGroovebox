@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 199.0, 1281.0, 1487.0, 820.0 ],
+		"rect" : [ 564.0, 131.0, 1487.0, 820.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,13 +108,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 34.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -244,13 +244,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 801.0, 1318.0, 640.0, 589.0 ],
+						"rect" : [ 381.0, 385.0, 640.0, 589.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -277,6 +277,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-31",
@@ -380,7 +381,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 156.25, 447.0, 101.0, 22.0 ],
-									"text" : "expr ($i1 % 2) * 4"
+									"text" : "expr ($i1 % 2) * 6"
 								}
 
 							}
@@ -478,8 +479,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 310.0, 68.0, 95.0, 22.0 ],
-									"text" : "0 1, 1 2, 4 3, 5 4"
+									"patching_rect" : [ 310.0, 68.0, 142.0, 22.0 ],
+									"text" : "0 1, 4 2, 1 3, 5 4, 2 5, 6 6"
 								}
 
 							}
@@ -711,7 +712,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -744,73 +745,15 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-16",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 224.666671752929688, 414.0, 70.0, 22.0 ],
-									"text" : "loadmess 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 250.166671752929688, 358.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 274.0, 296.0, 70.0, 22.0 ],
-									"text" : "loadmess 4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 295.5, 233.0, 70.0, 22.0 ],
-									"text" : "loadmess 5"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 206.0, 264.0, 198.0, 22.0 ],
-									"text" : "ctlout @name \"Midi Fighter Twister\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 0,
-									"patching_rect" : [ 184.500015258789062, 325.0, 198.0, 22.0 ],
-									"text" : "ctlout @name \"Midi Fighter Twister\""
+									"patching_rect" : [ 138.0, 389.0, 208.0, 22.0 ],
+									"text" : "ctlout 0 @name \"Midi Fighter Twister\""
 								}
 
 							}
@@ -820,8 +763,30 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 160.666671752929688, 385.0, 198.0, 22.0 ],
-									"text" : "ctlout @name \"Midi Fighter Twister\""
+									"patching_rect" : [ 155.600006103515625, 361.0, 208.0, 22.0 ],
+									"text" : "ctlout 4 @name \"Midi Fighter Twister\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 0,
+									"patching_rect" : [ 173.0, 335.0, 208.0, 22.0 ],
+									"text" : "ctlout 1 @name \"Midi Fighter Twister\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 0,
+									"patching_rect" : [ 190.800003051757812, 305.0, 208.0, 22.0 ],
+									"text" : "ctlout 5 @name \"Midi Fighter Twister\""
 								}
 
 							}
@@ -831,8 +796,19 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 134.666671752929688, 444.0, 198.0, 22.0 ],
-									"text" : "ctlout @name \"Midi Fighter Twister\""
+									"patching_rect" : [ 208.399993896484375, 275.0, 208.0, 22.0 ],
+									"text" : "ctlout 2 @name \"Midi Fighter Twister\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 0,
+									"patching_rect" : [ 226.0, 245.0, 208.0, 22.0 ],
+									"text" : "ctlout 6 @name \"Midi Fighter Twister\""
 								}
 
 							}
@@ -841,10 +817,10 @@
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 138.0, 205.0, 87.0, 22.0 ],
-									"text" : "unpack 0 0 0 0"
+									"numoutlets" : 6,
+									"outlettype" : [ "int", "int", "int", "int", "int", "int" ],
+									"patching_rect" : [ 138.0, 205.0, 107.0, 22.0 ],
+									"text" : "unpack 0 0 0 0 0 0"
 								}
 
 							}
@@ -873,7 +849,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 294.0, 56.0, 30.0, 30.0 ]
+									"patching_rect" : [ 138.0, 99.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -882,34 +858,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 1 ],
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 1 ],
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 1 ],
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 1 ],
-									"source" : [ "obj-16", 0 ]
 								}
 
 							}
@@ -929,22 +877,36 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-7", 2 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-7", 3 ]
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-7", 5 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-7", 0 ]
+									"source" : [ "obj-7", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-7", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-7", 2 ]
 								}
 
 							}
@@ -970,8 +932,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.5, 102.0, 88.0, 22.0 ],
-					"text" : "$1 64 0 64 116"
+					"patching_rect" : [ 407.0, 102.0, 121.0, 22.0 ],
+					"text" : "$1 64 0 64 64 116 64"
 				}
 
 			}
@@ -994,7 +956,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 407.5, 136.0, 70.0, 22.0 ],
+					"patching_rect" : [ 407.0, 134.0, 70.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1027,7 +989,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1487,7 +1449,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1734,7 +1696,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2064,13 +2026,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1006.0, 1665.0, 640.0, 480.0 ],
+						"rect" : [ 1006.0, 810.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2402,7 +2364,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2735,7 +2697,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3053,7 +3015,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 523.0, 150.0, 57.0, 22.0 ],
+					"patching_rect" : [ 535.5, 142.0, 57.0, 22.0 ],
 					"text" : "sel 0 127"
 				}
 
@@ -3069,13 +3031,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 698.0, 517.0, 950.0, 551.0 ],
+						"rect" : [ 696.0, 517.0, 950.0, 551.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3343,7 +3305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 523.0, 86.0, 150.0, 20.0 ],
+					"patching_rect" : [ 535.5, 78.0, 150.0, 20.0 ],
 					"text" : "Select pad mod"
 				}
 
@@ -3359,7 +3321,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3603,7 +3565,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 523.0, 114.0, 218.0, 22.0 ],
+					"patching_rect" : [ 535.5, 106.0, 218.0, 22.0 ],
 					"text" : "ctlin 10 4 @name \"Midi Fighter Twister\""
 				}
 
@@ -3684,7 +3646,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
